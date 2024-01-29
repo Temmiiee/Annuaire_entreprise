@@ -24,7 +24,9 @@
     "scripts": {
         "phpcs": "vendor/bin/phpcs",
         "phpcs:fix": "vendor/bin/phpcbf",
-        "phpstan": "vendor/bin/phpstan analyse"
+        "phpstan": "vendor/bin/phpstan analyse",
+        "dev": "vite",
+        "build": "vite build"
     }
 
 }
